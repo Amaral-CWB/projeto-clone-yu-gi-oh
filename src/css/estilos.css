@@ -49,12 +49,14 @@ body {
 }
 
 .cartao .nome {
-    font-size: 13px;
+    font-size: 15px;
+    font-family: 'Mont-Regular';
     padding: 5px;
     text-transform: uppercase;
     background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
     border: 2px solid #a67c52;
     border-radius: 4px;
+    text-align: center;
 }
 
 .cartao .estrela {
@@ -84,10 +86,10 @@ body {
     color: #000000;
     background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
     border: 2px solid #a67c52;
-    text-align: left;
     line-height: 1.5;
     padding: 5px;
     text-align: justify;
+    font-family: 'Mont-Regular';
 }
 
 .cartao .informacoes .informacoes-ataque {
@@ -98,8 +100,9 @@ body {
 }
 
 .cartao .informacoes .informacoes-ataque span {
-    font-size: 12px;
-    font-family: 'Lato-Extra';
+    font-size: 13px;
+    font-family: 'Mont-Bold';
+    font-style: italic;
 }
 
 .cartao .informacoes .descricao {
@@ -107,7 +110,7 @@ body {
     padding: 10px;
     max-height: 95px;
     overflow-y: scroll;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .fundo-1 {

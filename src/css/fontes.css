@@ -7,3 +7,35 @@
     font-family: 'Lato-Extra';
     src: url(../fontes/Lato-ExtraBoldItalic.ttf);
 }
+
+@font-face {
+    font-family: 'Celt-G', serif;
+    src: url(../fontes/CELTG__.ttf);
+}
+
+@font-face {
+    font-family: 'Aptos-Serif';
+    src: url(../fontes/aptos-serif.ttf);
+}
+
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url(../fontes/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Mont-Bold';
+    src: url(../fontes/Montserrat-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Soria';
+    src: url(../fontes/soria-font.ttf);
+}
+
+.fonte-personalizada {
+    font-family: 'Mont-Bold', sans-serif; /* 🔹 Substitua 'NomeDaFonte' pela fonte desejada */
+    font-weight: bold;  /* Caso queira manter o negrito */
+    font-style: italic; /* Caso queira manter o itálico */
+}
+
